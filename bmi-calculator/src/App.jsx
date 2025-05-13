@@ -90,7 +90,7 @@ export default function App() {
                     : "black",
               }}
             >
-              {bmi <= 0
+              {bmi == "Invalid" || bmi <= 0
                 ? ""
                 : bmi < 16
                 ? "Severely Underweight"
